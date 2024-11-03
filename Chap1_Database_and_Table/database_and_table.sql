@@ -13,6 +13,6 @@ INSERT INTO books (title, author, genre, publication_year, available_copies)
 VALUES 
     ('Le Petit Prince', 'Antoine de Saint-Exupéry', 'Fiction', '1943-04-06', 5),
     ('1984', 'George Orwell', 'Dystopian', '1949-06-08', 8),
-    ('L'Étranger', 'Albert Camus', 'Philosophical', '1942-05-07', 3),
+    ('LÉtranger', 'Albert Camus', 'Philosophical', '1942-05-07', 3),
     ('Pride and Prejudice', 'Jane Austen', 'Romance', '1813-01-28', 10),
     ('To Kill a Mockingbird', 'Harper Lee', 'Fiction', '1960-07-11', 4);
