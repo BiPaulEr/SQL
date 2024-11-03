@@ -1,0 +1,101 @@
+id,titre,genre,auteur,annee_publication,emprunts,avis
+1,Le Petit Prince,Fiction,Antoine de Saint-Exupéry,1943,150,4.6
+2,1984,Fiction,George Orwell,1949,200,4.6
+3,Une vie,Fiction,Guy de Maupassant,1883,150,4.1
+4,Sapiens,Non-fiction,Yuval Noah Harari,2011,,4.6
+5,Homo Deus,Non-fiction,Yuval Noah Harari,2015,250,4.3
+6,Le Mythe de Sisyphe,Philosophie,Albert Camus,1942,210,4.4
+7,La Nausée,Philosophie,Jean-Paul Sartre,1938,190,4.0
+8,Les Misérables,Fiction,Victor Hugo,1862,300,4.0
+9,Crime et Châtiment,Fiction,Fyodor Dostoevsky,1866,250,4.5
+10,Germinal,Fiction,Émile Zola,1885,230,4.0
+11,L'Étranger,Philosophie,Albert Camus,1942,220,4.0
+12,Le Rouge et le Noir,Fiction,Stendhal,1830,240,4.1
+13,Le Deuxième Sexe,Non-fiction,Simone de Beauvoir,1949,180,4.4
+14,À la recherche du temps perdu,Fiction,Marcel Proust,1913,260,4.6
+15,Les Fleurs du mal,Poetry,Charles Baudelaire,1857,140,4.2
+16,Du côté de chez Swann,Fiction,Marcel Proust,1913,270,4.6
+17,Discours de la méthode,Philosophie,René Descartes,1637,160,1.5
+18,La République,Philosophie,Plato,-380,180,4.8
+19,De l'esprit des lois,Non-fiction,Montesquieu,1748,170,4.3
+20,La Condition humaine,Fiction,André Malraux,1933,140,4.1
+21,La Métamorphose,Fiction,Franz Kafka,1915,210,4.5
+22,Les Confessions,Non-fiction,Jean-Jacques Rousseau,1782,150,4.3
+23,Phèdre,Poetry,Jean Racine,1677,130,4.4
+24,Le Banquet,Philosophie,Plato,-385,120,4.7
+25,Le Discours de la servitude volontaire,Philosophie,Étienne de La Boétie,1576,110,4.5
+26,Les Liaisons dangereuses,Fiction,Pierre Choderlos de Laclos,1782,160,4.2
+27,Le Capital,Non-fiction,Karl Marx,1867,100,4.3
+28,Le Contrat social,Non-fiction,Jean-Jacques Rousseau,1762,180,4.6
+29,Les Trois Mousquetaires,Fiction,Alexandre Dumas,1844,230,0.9
+30,Candide,Fiction,Voltaire,1759,190,4.9
+31,Zadig,Fiction,Voltaire,1748,130,4.9
+32,La Philosophie dans le boudoir,Philosophie,Marquis de Sade,1795,150,4.1
+33,Émile,Non-fiction,Jean-Jacques Rousseau,1762,160,4.3
+34,De l'origine des espèces,Non-fiction,Charles Darwin,1859,170,4.7
+35,Les Essais,Philosophie,Michel de Montaigne,1580,140,4.7
+36,Le Horla,Fiction,Guy de Maupassant,1887,120,4.3
+37,Madame Bovary,Fiction,Gustave Flaubert,1857,220,4.1
+38,Bel-Ami,Fiction,Guy de Maupassant,1885,180,4.2
+39,La Chute,Philosophie,Albert Camus,1956,160,1.2
+40,Le Père Goriot,Fiction,Honoré de Balzac,1834,200,4.5
+41,Le Livre du voyage,Non-fiction,Bernard Werber,1997,130,4.1
+42,Cosmétique de l'ennemi,Fiction,Amélie Nothomb,2001,140,0.3
+43,L'Écume des jours,Fiction,Boris Vian,1947,150,4.0
+44,La Peste,Fiction,Albert Camus,1947,210,4.6
+45,La Promesse de l'aube,Fiction,Romain Gary,1960,170,4.4
+46,La Place,Non-fiction,Annie Ernaux,1983,160,4.3
+47,Les Mots,Non-fiction,Jean-Paul Sartre,1964,180,4.5
+48,La Part de l'autre,Fiction,Éric-Emmanuel Schmitt,2001,150,0.4
+49,Un amour de Swann,Fiction,Marcel Proust,1913,170,4.5
+50,Le Dernier jour d'un condamné,Fiction,Victor Hugo,1829,140,4.2
+51,Le Petit Prince,Fiction,Antoine de Saint-Exupéry,1943,120,4.5
+52,Le Petit Prince,Fiction,Antoine de Saint-Exupéry,1943,130,0.5
+53,Le Petit Prince,Fiction,Antoine de Saint-Exupéry,1943,140,4.5
+54,1984,Fiction,George Orwell,1949,210,2.7
+55,1984,Fiction,George Orwell,1949,220,4.7
+56,Sapiens,Non-fiction,Yuval Noah Harari,2011,,0.6
+57,Sapiens,Non-fiction,Yuval Noah Harari,2011,130,0.6
+58,Homo Deus,Non-fiction,Yuval Noah Harari,2015,260,3.3
+59,Homo Deus,Non-fiction,Yuval Noah Harari,2015,270,2.3
+60,Les Misérables,Fiction,Victor Hugo,1862,320,4.9
+61,Les Misérables,Fiction,Victor Hugo,1862,330,4.8
+62,Crime et Châtiment,Fiction,Fyodor Dostoevsky,1866,240,3.8
+63,Germinal,Fiction,Émile Zola,1885,310,4.0
+64,Germinal,Fiction,Émile Zola,1885,320,4.3
+65,L'Étranger,Philosophie,Albert Camus,1942,230,4.6
+66,Le Rouge et le Noir,Fiction,Stendhal,1830,250,4.1
+67,Le Rouge et le Noir,Fiction,Stendhal,1830,260,3.1
+68,À la recherche du temps perdu,Fiction,Marcel Proust,1913,280,4.9
+69,À la recherche du temps perdu,Fiction,Marcel Proust,1913,290,4.7
+70,Les Fleurs du mal,Poetry,Charles Baudelaire,1857,150,2.2
+71,Les Fleurs du mal,Poetry,Charles Baudelaire,1857,160,4.2
+72,Du côté de chez Swann,Fiction,Marcel Proust,1913,280,2.2
+73,Discours de la méthode,Philosophie,René Descartes,1637,170,4.6
+74,Discours de la méthode,Philosophie,René Descartes,1637,180,4.5
+75,De l'esprit des lois,Non-fiction,Montesquieu,1748,,4.3
+76,La Condition humaine,Fiction,André Malraux,1933,150,1.9
+77,La Métamorphose,Fiction,Franz Kafka,1915,220,4.5
+78,La Métamorphose,Fiction,Franz Kafka,1915,230,3.5
+79,Phèdre,Poetry,Jean Racine,1677,140,4.4
+80,Le Banquet,Philosophie,Plato,-385,140,4.7
+81,Les Liaisons dangereuses,Fiction,Pierre Choderlos de Laclos,1782,170,4.2
+82,Le Capital,Non-fiction,Karl Marx,1867,,4.3
+83,Le Capital,Non-fiction,Karl Marx,1867,110,1.9
+84,Les Trois Mousquetaires,Fiction,Alexandre Dumas,1844,290,4.8
+85,Candide,Fiction,Voltaire,1759,200,4.1
+86,Zadig,Fiction,Voltaire,1748,150,1.9
+87,La Philosophie dans le boudoir,Philosophie,Marquis de Sade,1795,160,4.1
+88,Émile,Non-fiction,Jean-Jacques Rousseau,1762,170,4.3
+89,De l'origine des espèces,Non-fiction,Charles Darwin,1859,180,1.7
+90,Les Essais,Philosophie,Michel de Montaigne,1580,150,4.5
+91,Le Horla,Fiction,Guy de Maupassant,1887,130,4.2
+92,Madame Bovary,Fiction,Gustave Flaubert,1857,230,4.4
+93,Madame Bovary,Fiction,Gustave Flaubert,1857,240,1.9
+94,Le Père Goriot,Fiction,Honoré de Balzac,1834,210,4.5
+95,Le Livre du voyage,Non-fiction,Bernard Werber,1997,140,4.1
+96,Cosmétique de l'ennemi,Fiction,Amélie Nothomb,2001,150,4.3
+97,L'Écume des jours,Fiction,Boris Vian,1947,160,3.4
+98,La Peste,Fiction,Albert Camus,1947,220,2.2
+99,La Promesse de l'aube,Fiction,Romain Gary,1960,180,1.2
+100,La Place,Non-fiction,Annie Ernaux,1983,170,1.3
