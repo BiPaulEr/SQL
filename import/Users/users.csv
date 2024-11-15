@@ -1,4 +1,4 @@
 nom,email,ville,age
-"John Doe","john.doe@example.com","New York", 30
-"Jane Smith, PhD","jane.smith@example.com","Los Angeles", 25
-"Sam O'Connor","sam.oconnor@example.com","Chicago", 40
+John Doe,john.doe@example.com,New York, 30
+Jane Smith, PhD,jane.smith@example.com,Los Angeles, 25
+Sam O'Connor,sam.oconnor@example.com,Chicago, 40

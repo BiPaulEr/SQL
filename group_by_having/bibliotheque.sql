@@ -19,12 +19,11 @@ GROUP BY genre;
 --Etape 3 :
 SELECT genre, COUNT(*) AS nombre_total_livres_par_genre
 FROM bibliotheque
-WHERE genre = 'Non-fiction'
+WHERE genre != 'Non-fiction'
 GROUP BY genre;
 --Etape 4 :
 SELECT genre, COUNT(*) as nombre_total_livres_par_genre, COUNT(emprunts) AS nombre_emprunts_non_null_par_genre
 FROM bibliotheque
-WHERE genre = 'Non-fiction'
 GROUP BY genre;
 --Etape 5 :
 SELECT genre, COUNT(DISTINCT auteur) as nombre_auteur_par_genre 
