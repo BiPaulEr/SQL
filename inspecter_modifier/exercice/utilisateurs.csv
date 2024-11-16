@@ -1,0 +1,5 @@
+id,user_name,email,zip_code,city
+1,Alice,alice.smith#gmail.com,751,Paris
+2,Bob,bob.jackson@domain.com,31A0,Toulouse
+3,Charlie,charlie.doe@outlook.com,98T05,Nice
+4,David,dave123@domain.com,00000,Paris
