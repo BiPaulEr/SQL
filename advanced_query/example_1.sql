@@ -8,6 +8,8 @@ COPY population_villes(nom_ville, etat, population)
 FROM 'C:/Users/PaulE/SQL/advanced_query/example_1_data.csv'
 WITH (DELIMITER ',', FORMAT CSV, HEADER);
 
+SELECT * FROM population_villes;
+
 SELECT nom_ville, etat, population
 FROM population_villes
 WHERE population >= (
