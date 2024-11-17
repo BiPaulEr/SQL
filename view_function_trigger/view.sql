@@ -6,8 +6,7 @@ CREATE TABLE ventes_tondeuses (
 
 COPY ventes_tondeuses (region, annee, ventes)
 FROM 'C:/Users/PaulE/SQL/view_function_trigger/view.csv'
-DELIMITER ','
-CSV HEADER;
+WITH (FORMAT CSV, DELIMITER ',', HEADER ON);
 
 SELECT * FROM ventes_tondeuses;
 

@@ -11,7 +11,8 @@ CREATE TABLE total_ventes_tondeuses (
 );
 
 CREATE OR REPLACE FUNCTION update_total_ventes() 
-RETURNS TRIGGER AS $$
+RETURNS TRIGGER AS 
+$$
 BEGIN
     -- Vérifier si le total pour la région et l'année existe déjà
     IF EXISTS (SELECT 1 FROM total_ventes_tondeuses WHERE region = NEW.region AND annee = NEW.annee) THEN
@@ -34,10 +35,10 @@ FOR EACH ROW
 EXECUTE FUNCTION update_total_ventes();
 
 INSERT INTO ventes_tondeuses_trigger (region, annee, ventes) VALUES
-('Normandie', 2022, 350)
+('Normandie', 2022, 350);
 
 INSERT INTO ventes_tondeuses_trigger (region, annee, ventes) VALUES
-('Normandie', 2022, 650)
+('Normandie', 2022, 650);
 
 INSERT INTO ventes_tondeuses_trigger (region, annee, ventes) VALUES
-('Normandie', 2022, 500)
+('Normandie', 2022, 500);
