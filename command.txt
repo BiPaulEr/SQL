@@ -1,0 +1,3 @@
+pyinstaller --onefile --collect-all zipfile replace_paths_recursive.py
+
+replace_paths_recursive.exe --old-path "C:/Users/PaulE/SQL/" --new-path "C:/Program Files/PostgreSQL/17/data/"
