@@ -8,5 +8,5 @@ CREATE TABLE salary_import (
 );
 
 COPY salary_import 
-FROM 'C:/Users/PaulE/SQL/import/Salary/salary_import.csv' 
+FROM 'C:/Users/PaulE/SQL/demonstrations/Chap4_import_export/import/Salary/salary_import.csv' 
 WITH (FORMAT CSV, DELIMITER '|', QUOTE ',', HEADER ON);

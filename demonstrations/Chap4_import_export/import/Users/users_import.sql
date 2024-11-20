@@ -5,4 +5,4 @@ CREATE TABLE users_import (
     age INT
 );
 
-COPY users_import  FROM 'C:/Users/PaulE/SQL/import/Users/users.csv' WITH (FORMAT CSV, HEADER, DELIMITER ',');
+COPY users_import  FROM 'C:/Users/PaulE/SQL/demonstrations/Chap4_import_export/import/Users/users.csv' WITH (FORMAT CSV, HEADER, DELIMITER ',');

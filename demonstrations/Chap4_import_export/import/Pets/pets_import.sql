@@ -7,6 +7,6 @@ CREATE TABLE pets_import (
 );
 
 COPY pets_import 
-FROM 'C:/Users/PaulE/SQL/import/Pets/pets_import.csv' 
+FROM 'C:/Users/PaulE/SQL/demonstrations/Chap4_import_export/import/Pets/pets_import.csv' 
 WITH (FORMAT CSV, DELIMITER '|', HEADER OFF);
 

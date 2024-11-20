@@ -11,7 +11,7 @@ CREATE TABLE restaurant_ratings_etat (
 CREATE TEMPORARY TABLE restaurant_ratings_temp (LIKE restaurant_ratings_etat );
 
 COPY restaurant_ratings_temp (restaurant_name, city, rating, cuisine_type, comments)
-FROM 'C:/Users/PaulE/SQL/emonstrations/Chap4_import_export/import/default_value/restaurant_ratings.csv'
+FROM 'C:/Users/PaulE/SQL/demonstrations/Chap4_import_export/import/default_value/restaurant_ratings.csv'
 WITH (FORMAT CSV, HEADER);
 
 INSERT INTO restaurant_ratings_etat (restaurant_name, city, rating, cuisine_type, comments, etat)

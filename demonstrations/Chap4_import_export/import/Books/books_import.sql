@@ -8,5 +8,5 @@ CREATE TABLE books_import
 );
 
 
-COPY books_import FROM 'C:/Users/PaulE/SQL/import/Books/books_import.csv'
+COPY books_import FROM 'C:/Users/PaulE/SQL/demonstrations/Chap4_import_export/import/Books/books_import.csv'
 WITH (FORMAT CSV, DELIMITER ',', QUOTE '"', HEADER)
