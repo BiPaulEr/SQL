@@ -6,7 +6,7 @@ CREATE TABLE ventes_fruits (
 );
 
 COPY ventes_fruits (fruit, annee, ventes)
-FROM 'C:/Users/PaulE/SQL/view_function_trigger/exercice/fruits.csv'
+FROM 'C:/Users/PaulE/SQL/data/Chap12_view_function_trigger/fruits.csv'
 WITH (FORMAT CSV, DELIMITER ',', HEADER ON);
 
 --Etape 2
