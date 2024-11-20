@@ -5,7 +5,7 @@ CREATE TABLE zip_codes (
 );
 
 COPY zip_codes (zip_code, city)
-FROM 'C:/Users/PaulE/SQL/inspecter_modifier/exercice/zip_codes.csv'
+FROM 'C:/Users/PaulE/SQL/data/Chap10_modifier/zip_codes.csv'
 WITH (FORMAT CSV, DELIMITER ',', HEADER ON);
 
 CREATE TABLE utilisateurs (
@@ -17,7 +17,7 @@ CREATE TABLE utilisateurs (
 );
 
 COPY utilisateurs
-FROM 'C:/Users/PaulE/SQL/inspecter_modifier/exercice/utilisateurs.csv'
+FROM 'C:/Users/PaulE/SQL/data/Chap10_modifier/exercice/utilisateurs.csv'
 WITH (FORMAT CSV, DELIMITER ',', HEADER ON);
 
 --Etape 2
