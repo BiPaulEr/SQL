@@ -1,5 +1,7 @@
+--Etape 1
 CREATE DATABASE library_system;
 
+--Etape 2
 CREATE TABLE books (
     id bigserial,
     title varchar(100),
@@ -9,6 +11,7 @@ CREATE TABLE books (
     available_copies integer
 );
 
+--Etape 3
 INSERT INTO books (title, author, genre, publication_year, available_copies)
 VALUES 
     ('Le Petit Prince', 'Antoine de Saint-Exupéry', 'Fiction', '1943-04-06', 5),

@@ -30,3 +30,8 @@ SELECT region,
        RANK() OVER(PARTITION BY region ORDER BY ventes DESC) AS rank,
        DENSE_RANK() OVER(PARTITION BY region ORDER BY ventes DESC) AS dense_rank
 FROM rank_ventes;
+
+SELECT 
+    REGEXP_MATCH('figeac@figeac.com', '^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$') AS Valide,
+	REGEXP_MATCH('figeac@', '^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$') AS Invalide
+	
