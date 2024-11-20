@@ -5,7 +5,7 @@ CREATE TABLE population_villes (
 );
 
 COPY population_villes(nom_ville, etat, population)
-FROM 'C:/Users/PaulE/SQL/advanced_query/example_1_data.csv'
+FROM 'C:/Users/PaulE/SQL/demonstrations/Chap11_advanced_query/example_1_data.csv'
 WITH (DELIMITER ',', FORMAT CSV, HEADER);
 
 SELECT * FROM population_villes;
