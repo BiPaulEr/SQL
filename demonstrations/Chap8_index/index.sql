@@ -9,7 +9,7 @@ id bigserial PRIMARY KEY
 );
 
 COPY fake_adresses (street_number, street, unit, postcode, longitude, latitude)
-FROM 'C:/Users/PaulE/SQL/index_optimisation/fake_addresses.csv'
+FROM 'C:/Users/PaulE/SQL/demonstrations/Chap8_index/fake_addresses.csv'
 WITH (FORMAT CSV, HEADER);
 
 SELECT * FROM fake_adresses
