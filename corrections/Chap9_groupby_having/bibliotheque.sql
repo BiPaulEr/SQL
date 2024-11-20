@@ -1,4 +1,4 @@
--- Etape 1 :
+-- Etape 1 : 
 CREATE TABLE bibliotheque (
     id SERIAL PRIMARY KEY,
     titre varchar(255),
@@ -10,7 +10,7 @@ CREATE TABLE bibliotheque (
 );
 
 COPY bibliotheque(id, titre, genre, auteur, annee_publication, emprunts, avis)
-FROM 'C:/Users/PaulE/SQL/group_by_having/bibliotheque_data.csv'
+FROM 'C:/Users/PaulE/SQL/data/Chap9_groupby_having/bibliotheque_data.csv'
 DELIMITER ',' CSV HEADER;
 --Etape 2 :
 SELECT genre, COUNT(*) AS nombre_total_livres_par_genre
