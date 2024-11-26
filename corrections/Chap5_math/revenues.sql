@@ -16,9 +16,7 @@ FROM revenu;
 
 --Version 2
 SELECT
-unnest(
-	percentile_cont(array[0.25,0.5,0.75]) WITHIN GROUP (ORDER BY salaire) AS "quartiles",
+	unnest(percentile_cont(array[0.25,0.5,0.75]) WITHIN GROUP (ORDER BY salaire))AS "quartiles",
  	SUM(salaire) AS "total_revenus",
 	AVG(salaire) AS "avg_revenus"
-)
 FROM revenu;
